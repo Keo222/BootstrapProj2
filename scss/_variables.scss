@@ -36,6 +36,7 @@ $grays: (
 // fusv-enable
 
 // scss-docs-start color-variables
+$myBlue:  #3292a6 !default;
 $blue:    #0d6efd !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
@@ -67,6 +68,7 @@ $colors: (
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
+$unique:        $myBlue !default;
 $primary:       $blue !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
@@ -79,6 +81,7 @@ $dark:          $gray-900 !default;
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
+  "unique":     $unique,
   "primary":    $primary,
   "secondary":  $secondary,
   "success":    $success,
